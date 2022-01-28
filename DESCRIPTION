@@ -1,0 +1,21 @@
+Package: metadeconfoundR
+Type: Package
+Title: Check Multiple Covariates for Potenial Counfinding Effects
+Version: 0.1.5
+Author: Sofia Forslund, Ulrike Löber, Till Birkner
+Maintainer: Till Birkner <tillb@online.de>
+Description: Here comes the longer yet precise description.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+OS_type: unix
+Imports: lmtest, foreach, doParallel, stats, bigmemory, futile.logger,
+        lme4, ggplot2, reshape2
+RoxygenNote: 7.1.0
+VignetteBuilder: knitr
+Suggests: BiocStyle, knitr
+biocViews: Software, Metagenomics, Microbiome, MultipleComparison,
+        Metabolomics, Transcriptomics
+NeedsCompilation: no
+Packaged: 2020-06-12 15:49:05 UTC; till
+Depends: R (>= 3.5.0)
